@@ -1,0 +1,100 @@
+body {
+  width: 350px;
+  height: 450px;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#sudHeader {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#search {
+  height: 25px;
+  width: 280px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  padding: 3px 14px;
+  background: #e3f2fd;
+}
+
+#newPost {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+#responseArea {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+}
+
+#searchDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+#searchIcon {
+  height: 21px;
+  width: 21px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #e3f2fd;
+  cursor: pointer;
+}
+
+/* searchpost.css */
+#card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+#card h3 {
+  margin-top: 0;
+}
+
+#card-details {
+  margin-top: 5px;
+  font-size: smaller;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #212121;
+  }
+
+  #name {
+    color: white;
+    font-weight: bold;
+  }
+
+  #search {
+    background: #373737;
+    color: white;
+  }
+
+  #searchIcon {
+    background: #616161;
+  }
+}
